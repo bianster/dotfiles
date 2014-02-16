@@ -1,0 +1,8 @@
+[user]
+	name = Douglas Tan
+	email = bianster@gmail.com 
+[core]
+        editor = vim
+	autocrlf = input
+[color]
+	ui = true

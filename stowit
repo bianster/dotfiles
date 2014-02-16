@@ -1,0 +1,10 @@
+#!/bin/bash
+
+script=`basename $0`;
+
+for package in `ls`;
+do
+  if [ $script != $package ]; then
+    `stow -v -S ${package}`
+  fi
+done
